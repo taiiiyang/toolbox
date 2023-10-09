@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
+    "update": "git add . && git commit -m 'update' && git push origin master",
     "tauri": "tauri"
   },
   "dependencies": {
